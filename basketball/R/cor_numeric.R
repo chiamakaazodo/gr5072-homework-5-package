@@ -10,7 +10,6 @@
 cor_numeric <- function(year_value) {
   data <- select_if(nba, is.numeric)
   data <- data[data$year == year_value,]
-  output <- vector("double", length(data))
   cor_data <- cor(data, use="complete.obs")
   corrplot(cor_data, type = "upper")
 }
