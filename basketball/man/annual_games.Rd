@@ -4,11 +4,9 @@
 \alias{annual_games}
 \title{Annual games}
 \usage{
-annual_games(data, year_value)
+annual_games(year_value)
 }
 \arguments{
-\item{data}{a data set}
-
 \item{year_value}{a year of interest}
 }
 \value{

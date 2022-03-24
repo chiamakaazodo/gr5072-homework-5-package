@@ -4,11 +4,9 @@
 \alias{cor_numeric}
 \title{Cor numeric}
 \usage{
-cor_numeric(data, year_value)
+cor_numeric(year_value)
 }
 \arguments{
-\item{data}{a data set}
-
 \item{year_value}{a year of interest}
 }
 \value{

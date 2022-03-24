@@ -4,11 +4,9 @@
 \alias{oldest_player}
 \title{Oldest player}
 \usage{
-oldest_player(data, year_value)
+oldest_player(year_value)
 }
 \arguments{
-\item{data}{a data set}
-
 \item{year_value}{a year of interest}
 }
 \value{
